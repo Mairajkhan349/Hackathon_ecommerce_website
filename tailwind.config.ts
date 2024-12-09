@@ -8,9 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        'headerFont': '14px',  // Add your custom font size here
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        headerBlue: "rgba(37, 43, 66, 1)",
+        headerskyblue:"rgba(35, 166, 240, 1)",
+        headergrey:"rgba(115, 115, 115, 1)",
+
       },
     },
   },
